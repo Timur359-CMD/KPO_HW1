@@ -1,0 +1,15 @@
+# Формат: ВИД;название;простота;износ;расход_энергии
+# Транспорт: SCOOTER, BICYCLE, ELECTRIC_BICYCLE. Вещи: HELMET, CHARGING_CABINET (простота и износ пустые)
+SCOOTER;Xiaomi Pro 4;8;10;0.55
+BICYCLE;Stels Navigator;9;5;
+ELECTRIC_BICYCLE;Eltreco Ultra;7;15;0.40
+SCOOTER;Segway Max G2;4;20;0.70
+ELECTRIC_BICYCLE;Haibike Trekking;8;25;0.45
+SCOOTER;Kugoo S3 old;7;60;0.50
+# Следующие три строки специально с ошибками: программа должна их показать и продолжить работу
+SCOOTER;Bad ease;11;10;0.5
+SCOOTER;No energy;5;10;
+BOAT;Unknown kind;5;5;1
+HELMET;Livall M;;;
+HELMET;Livall L;;;
+CHARGING_CABINET;ZSh-8;;;3.50
